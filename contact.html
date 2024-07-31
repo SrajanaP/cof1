@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body{
+            background-color: #b8c6db;
+        }
+        
+            p{
+                margin-right: 20px;
+                font-size: 25px;
+                color:black;
+               }
+            .s{
+                text-align: center;
+                color: blueviolet;
+            }
+        .a{
+            margin:50px;
+           /* margin-bottom: 20px;
+            margin-left: 50px*/;
+            
+          /* display: block;
+            float: left;*/
+            width:400px;
+            height: 300px;
+            /* background-color: #a2bce2; */
+        /* border:2px solid black*/
+          
+        }
+        .g{
+            text-align: center;
+            line-height: 0.5rem;
+        }
+        .fom{
+            margin-bottom:50%;
+            margin:0 auto;
+            justify-content: center;
+          color:white;
+          width:550px;
+          background-color:whitesmoke;
+          padding:20px;
+          border-radius: 10px;
+          height: 470px;
+          box-shadow: 1px 1px 5px black;
+
+
+
+        }
+        input[type=text],input[type=email],input[type=number]{
+         display:block;
+         width:90%;
+         padding:15px;
+         margin-bottom: 40px;
+        border-radius: 10px;
+        font-size: 12px;
+        align-items: center;
+    
+
+        }
+        input[type=button]{
+            width:96%;
+            line-height: 1.1;
+            height: 40px;
+            border-radius: 10px;
+            color:black;
+            background-color: rgb(149, 43, 149);
+            font-size: 20px;
+            margin: auto;
+            border: 1px solid black;
+
+        }
+        label{/*margin:10px;
+            line-height: 2px;*/
+            margin-bottom: 5px;
+            display: block;
+            padding:10px;
+            color: black;
+            font-size: 20px;
+        }
+        .cont{
+            display: flex;
+         /*   margin-top:20px;*/
+            justify-content: space-around;
+        /*    background-color: #b8c6db;*/
+        }
+        i{
+            color:black;
+            margin:2px;
+        }
+        h2{
+            font-size: 30px;
+            margin-left: 10px;
+        }
+        p{
+            margin-left: 10px;
+        }
+       input[type=button]:hover{
+            /* color:white; */
+            /* background-color: palevioletred; */
+            cursor: pointer;
+            background-color:rgb(147, 20, 147) ;
+        }
+        h3{
+            margin:3px auto;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .container{
+    height: 100vh;
+    width: 100%;
+    /* background:url("shj.jpg"); */
+    background-position: center;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 50px 1px 50px;
+    position: sticky;
+    top: 0;
+}
+.nav-bar .title{
+    color:black;
+    font-size:50px;
+    font-weight: 600;
+    cursor:pointer;
+
+}
+span{
+    color:crimson;
+}
+.menu li{
+    list-style: none;
+    display: inline;
+}
+.menu li a{
+    text-decoration: none;
+    color:crimson;
+    font-size: 30px;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: .4s ease;
+
+}
+.menu li a:hover{
+    color: crimson;
+    padding:5px 10px;
+    border: 2px solid white;
+}
+
+#menus{
+    color: rgb(91, 91, 146);
+}
+    </style>
+</head>
+<body>
+    
+    <div class="nav-bar">
+        <h1  class="title">cof<span>fee</span></h1>
+        
+        <ul class="menu">
+            <li><a href="coffee.html">Home</a></li>
+            <li><a href="product.html">Menu</a></li>
+            
+            <li><a href="contact.html" id="menus">contact</a></li>
+            <li><a href="about.html">about </a></li>
+        </ul>
+        </div> 
+       <h2>Get in touch</h2>
+       <p> Get in touch with us using the information below</p>
+       <div class="cont">
+       <div class="a">
+       <p class="s"> <i class="fa-solid fa-location-dot"></i> address</p>
+       <p class="g">123 main st,anytown USA</p>
+       <p class="s"> <i class="fa-solid fa-phone"></i> Phone</p>
+       <p class="g"> 123-456</p>
+       <p class="s"><i class="fa-regular fa-envelope"></i> Email</p>
+       <p class="g">  inso@sghs.com</p>
+   
+    </div>
+    <form>
+        
+     <div class="fom">
+        <label>Name: </label>
+        <input type="text" placeholder="Enter your name">
+         <label>Email: </label>
+            <input type="email" placeholder="Enter your email">
+         <label>Mobile No: </label>
+         <input type="number"placeholder="Enter mobile no">
+         <input type="button" value="submit">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+   <div class="container">
+        <div class="nav-bar">
+        <h1  class="title">cof<span>fee</span></h1>
+        
+        <ul class="menu">
+            <li><a href="coffee.html">Home</a></li>
+            <li><a href="product.html">Menu</a></li>
+            
+            <li><a href="contact.html" id="menus">contact</a></li>
+            <li><a href="about.html">about </a></li>
+        </ul>
+        </div> -->
+    
+        <!-- <h2>Contact</h2><br> -->
+        <!-- <br>
+        <form class="a">
+           
+            <label id="lab">Name:</label><br>
+        
+            <input type="text" /><br>
+            <label>Email:</label><br>
+            <input type="email"><br>
+            <label>Address:</label><br>
+            <input type="text"><br>
+            <label>Mobile No:</label><br>
+            <input type="number" ><br>
+            <label>Text:</label><br>
+            <input type="text"><br>
+            <br>
+            
+             <center>
+            <input type="submit" value="submit"/>
+           
+            
+            <input type="reset" value="reset"/>
+        </center>
+        </form>
+        </div>
+</body>
+</html> -->

@@ -1,0 +1,125 @@
+*{
+    margin:0;
+   /* padding:0;*/
+    box-sizing: border-box;
+    background-color: rgb(44, 30, 20);
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background:url("shj.jpg"); */
+    background-position: center;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    position: sticky;
+    top: 0;
+}
+.nav-bar .title{
+    color:black;
+    font-size:50px;
+    font-weight: 500;
+    cursor:pointer;
+
+}
+span{
+    color:crimson;
+}
+.menu li{
+    list-style: none;
+    display: inline;
+}
+.menu li a{
+    text-decoration: none;
+    color:crimson;
+    font-size: 30px;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: .4s ease;
+
+}
+.menu li a:hover{
+    color: crimson;
+    padding:5px 10px;
+    border: 2px solid white;
+}
+ /*.a{
+    
+    justify-content: center;
+    
+    width:100%;
+    
+    padding:5px 20px 5px 20px;
+  
+   background-color:gray;*/
+   /* margin:0px auto; */
+   /* color:white; */
+   /* background:grey; */
+    /* border-radius: 10px;
+    } */
+
+/*
+.a label{
+    color: black;
+    background-color: grey;
+    display:block;
+    font-weight: bold;
+}
+input[type=text],input[type=email],input[type=number],input[type=password]{
+    display:block;
+    width:96%;
+    padding:10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    align-items: center;
+    
+    border: 1px solid black;
+    background:transparent;
+    height: 35px;
+    color: black;
+
+    
+
+}
+
+ #lab{
+    margin-top: 25px;
+}
+input[type=submit],input[type=reset]{
+    display: inline-block;
+    background-color: crimson;
+    color:black;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+    line-height: 1.5;
+    width:120px;
+    height: 35px;
+    border: 1px solid black;
+
+}
+input[type=submit]:hover,input[type=reset]:hover{
+    background-color: rgba(173, 3, 37, 1);
+}
+h2{
+    color:crimson;
+    margin:0 auto;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline solid crimson;
+}
+center{
+    background-color: grey;
+}
+
+#menus{
+    color: gray;
+
+}  */
